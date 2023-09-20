@@ -1,0 +1,143 @@
+body {
+  font-family: "Times New Roman", Times, serif,Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.navbar {
+  display: flex;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 15px;
+  color: #fff;
+}
+
+.logo a {
+  color: #1962ff;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #3b79ff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 30px;
+}
+.container{
+  height: 90vh;
+  position: absolute;
+  top: 7vh;
+  width: 100vw;
+}
+.joke-container {
+  padding: 20px;
+  border: 1px solid #0003ac;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 90%;
+  margin: 40px auto;
+  border-width: 5px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.content {
+  padding: 20px;
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  /* padding: 20px; */
+  text-align: center;
+  margin-bottom: 1px;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 5vh;
+}
+.wrapper{
+  height: 5vh;
+  background: #2e34a2;
+  width: inherit;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+
+}
+
+.footer-content {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer-links li {
+  margin-left: 10px;
+}
+
+.footer-links li:first-child {
+  margin-left: 0;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-links li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
